@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="worddesign.css">
+    <title>18B1NUM0323 Nomin.B</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+	<p>Find the words in 60 seconds</p>
+	<p id="timer">0</p>
+	<div id="container">
+		<div class="columns">
+			<div class="ehleh">
+		            <button id="strt" onclick="blah()" type="button">Start</button>
+		    </div>
+        	<div id="board">
+	            <div class="row">
+	                <div class="letter">
+	                    <span>H</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>E</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>A</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>C</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>R</span>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="letter">
+	                    <span>D</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>S</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>A</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>Z</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>U</span>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="letter">
+	                    <span>S</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>U</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>P</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>S</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>O</span>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="letter">
+	                    <span>E</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>S</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>G</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>W</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>I</span>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="letter">
+	                    <span>N</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>I</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>N</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>E</span>
+	                </div> 
+	                <div class="letter">
+	                    <span>X</span>
+	                </div>
+	            </div>
+        	</div>
+    	</div>
+    	<div class="columns">
+        <div id="wordsubmit">
+            <span><strong>Current Word:</strong> <br><input type="text" name="currentword" id="a"></br></span>
+            <button id="sbutton" onclick="getword()" type="button">Submit Word</button>
+        </div>
+        <div id="para"></div>
+        <button id="sore" onclick="score()">Tap here to see total points</button>
+        <table id="scoretable">
+            <tr id="footer">
+                <td>Total </td>
+                <td id="totalpoints">0</td>
+            </tr>
+        </table>
+
+    	</div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
